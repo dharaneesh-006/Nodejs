@@ -1,0 +1,15 @@
+....Order of the files....
+
+1. server1.js use: math.js
+
+2. mserver.mjs use: math.js
+
+3. filesysm.mjs 
+
+4. filesysm.js (read,write,modify,append,delete) contents in a file
+
+5. stream.js (usage of readStream, writeStream)
+
+6. directory.js (make,remove) directories
+
+7. index.js 

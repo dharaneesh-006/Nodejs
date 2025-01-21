@@ -66,6 +66,10 @@ const fileOps = async() => {
         await fsPromises.rename(path.join(__dirname,'files','write.txt'), path.join(__dirname,'files','rename.txt'))
         console.log("Renaming Completed");
 
+        //deleting  >> 'unlink' is used for deletion of a file.
+        await fs.promises.unlink(path.join(__dirname,'files','rename.txt'))
+        console.log("Deletion Completed")
+
     }catch(err)
     {
         console.error(err)
